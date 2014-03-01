@@ -138,11 +138,7 @@ class Application(Tkinter.Frame):
         self.master.minsize(width=100, height=100)
         self.master.config()
 
-        self.master.bind('<Left>', self.left_key)
-        self.master.bind('<Right>', self.right_key)
-        self.master.bind('<Up>', self.up_key)
-        self.master.bind('<Down>', self.down_key)
-        self.master.bind('<Return>', self.enter_key)
+        self.bindKeys()
 
         self.main_frame = Tkinter.Frame()
         self.main_frame.pack(fill='both', expand=True)
@@ -173,6 +169,13 @@ class Application(Tkinter.Frame):
 
         self.getInit()
         self.encounter.printHeader()
+
+    def bindKeys(self):
+        self.master.bind('<Left>', self.left_key)
+        self.master.bind('<Right>', self.right_key)
+        self.master.bind('<Up>', self.up_key)
+        self.master.bind('<Down>', self.down_key)
+        self.master.bind('<Return>', self.enter_key)
 
     def enter_key(self, event):
         try:
