@@ -1,0 +1,4 @@
+name    ac  will    fort    ref init    hp
+Surran_Shaman          18       16      15  14   2    47
+Jhakar_Tracker    15 13 14 13 3 28
+Suuran_Hunter 18 16 17 15 7 1

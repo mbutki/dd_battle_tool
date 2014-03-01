@@ -1,0 +1,5 @@
+name    ac  will    fort    ref init    hp
+Gaj     18   17       15       13   2     92
+Elf_A   16   15       12       15   6     34
+Elf_B   16   15       12       15   6     34
+Elf_c   16   15       12       15   6     34
